@@ -1,0 +1,139 @@
+#loader{
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	background: url('../images/Infinity-1s-200px.gif') no-repeat center;
+	z-index: 99999;
+}
+.head{
+	background-image: url('../images/body.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 650px;
+}
+.imgtext{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+.imgtext h2{
+	font-size: 32px;
+}
+.imgtext h1{
+	font-size: 72px;
+	font-weight: bolder;
+}
+.services{
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+.services h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.servimg{
+	border-radius: 50px;
+	height: 100px;
+	width: 100px;
+}
+.rowsetting{
+	margin: 80px 0px;
+}
+.rowsetting p{
+	padding: 10px;
+	color: #6c757d;
+}
+.rowsetting h2{
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.fa-shopping-cart{
+	margin-top: 20px;
+}
+.fa-desktop{
+	margin-top: 24px;
+}
+.fa-television{
+	margin-top: 24px;
+}
+.portfolio{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.card{
+	margin-top: 40px;
+}
+.team{
+	height: 600px;
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+.team h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.teamsetting{
+	margin-top: 70px;
+}
+.footer{
+	height: 50px;
+}
+.footer h6{
+	line-height: 50px;
+}
+
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+@media(min-width: 480px) and (max-width: 574px){
+
+}
+@media(max-width: 479px){
+	.imgtext h2{
+		font-size: 22px;
+	}
+	.imgtext h1{
+		font-size: 42px;
+		font-weight: bolder;
+	}
+	.services{
+		height: 1200px;
+   }
+   .portfolio{
+		height: 2500px;
+	}
+	.team{
+		height: 1100px;
+	}
+   
+}
+.ser, .ser-1, .ser-2, .ser-3{
+	opacity: 0;
+}
+.ser.animated, .ser-1.animated, .ser-2.animated, .ser-3.animated{
+	opacity: 1;
+}
+.port, .port-1, .port-2, .port-3, .port-4, .port-5, .port-6{
+	opacity: 0;
+} 
+.port.animated, .port-1.animated, .port-2.animated, .port-3.animated, .port-4.animated, .port-5.animated, .port-6.animated{
+	opacity: 1;
+} 
+.tem, .tem-1, .tem-2, .tem-3{
+	opacity: 0;
+}
+.tem.animated, .tem-1.animated, .tem-2.animated, .tem-3.animated{
+	opacity: 1;
+}
